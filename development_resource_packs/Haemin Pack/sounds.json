@@ -1,16 +1,17 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"my:evil_mach": {
+			"my:minhae": {
 				"events": {
-					"ambient": "mob.husk.ambient",
-					"death": "mob.husk.death",
-					"hurt": "mob.husk.hurt",
-					"step": {
-						"pitch": 1,
-						"sound": "mob.husk.step",
-						"volume": 0.35
-					}
+					"ambient": "mob.wanderingtrader.idle",
+					"death": "mob.wanderingtrader.death",
+					"disappeared": "mob.wanderingtrader.disappeared",
+					"drink": "mob.wanderingtrader.drink_potion",
+					"haggle": "mob.wanderingtrader.haggle",
+					"haggle.no": "mob.wanderingtrader.no",
+					"haggle.yes": "mob.wanderingtrader.yes",
+					"hurt": "mob.wanderingtrader.hurt",
+					"reappeared": "mob.wanderingtrader.reappeared"
 				},
 				"pitch": [0.8, 1.2],
 				"volume": 1

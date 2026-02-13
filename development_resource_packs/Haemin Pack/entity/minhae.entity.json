@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "my:minhae",
+			"materials": {
+				"default": "wandering_trader"
+			},
+			"textures": {
+				"default": "textures/entity/minhae"
+			},
+			"geometry": {
+				"default": "geometry.minhae"
+			},
+			"scripts": {
+				"scale": "0.9375"
+			},
+			"animations": {
+				"general": "animation.minhae.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.minhae.raise_arms",
+				"move": "animation.minhae.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.villager.general"
+				},
+				{
+					"raise_arms": "controller.animation.villager_v2.raise_arms"
+				},
+				{
+					"move": "controller.animation.villager.move"
+				}
+			],
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#6affc2",
+				"overlay_color": "#ff61a0"
+			}
+		}
+	}
+}

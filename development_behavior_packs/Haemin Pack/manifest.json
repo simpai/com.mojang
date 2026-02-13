@@ -1,30 +1,30 @@
 {
-  "format_version": 2,
-  "header": {
-    "name": "Haemin Pack",
-    "description": "Haemin Pack Behavior Pack",
-    "uuid": "4c9255ca-e68a-509e-2850-cab58cb6c2b6",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 0]
-  },
-  "metadata": {
-    "authors": ["Haemin", "Junghun"],
-    "generated_with": {
-      "blockbench_entity_wizard": ["1.8.2"]
-    }
-  },
-  "modules": [
-    {
-      "description": "Behavior",
-      "version": [1, 0, 0],
-      "uuid": "8264401e-0d6c-0956-6acd-46080d684e24",
-      "type": "data"
-    }
-  ],
-  "dependencies": [
-    {
-      "uuid": "562e0e2c-31e1-1fcf-5f60-aa3b806b893d",
-      "version": [1, 0, 0]
-    }
-  ]
+	"format_version": 2,
+	"header": {
+		"name": "Haemin Pack",
+		"description": "Haemin Pack Behavior Pack",
+		"uuid": "14aa846e-ee9e-a266-dad9-c0b73c7bae43",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Haemin", "Junghun"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d29b628e-b38c-694c-7ca1-cdb7b5d976e1",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "318570f1-542a-2c0d-8d9f-c1b3c8cde935",
+			"version": [1, 0, 0]
+		}
+	]
 }

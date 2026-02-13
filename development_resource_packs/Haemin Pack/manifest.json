@@ -1,24 +1,24 @@
 {
-  "format_version": 2,
-  "header": {
-    "name": "Haemin Pack",
-    "description": "Haemin Pack Resource Pack",
-    "uuid": "562e0e2c-31e1-1fcf-5f60-aa3b806b893d",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 0]
-  },
-  "metadata": {
-    "authors": ["Haemin", "Junghun"],
-    "generated_with": {
-      "blockbench_entity_wizard": ["1.8.2"]
-    }
-  },
-  "modules": [
-    {
-      "description": "Haemin Pack",
-      "type": "resources",
-      "uuid": "7fe0827a-5d88-c6ce-7414-742228a53dbb",
-      "version": [1, 0, 0]
-    }
-  ]
+	"format_version": 2,
+	"header": {
+		"name": "Haemin Pack",
+		"description": "Haemin Pack Resource Pack",
+		"uuid": "318570f1-542a-2c0d-8d9f-c1b3c8cde935",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Haemin", "Junghun"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Haemin Pack",
+			"type": "resources",
+			"uuid": "048a1dc6-4ab3-9eaa-6b6a-495b57f60e75",
+			"version": [1, 0, 0]
+		}
+	]
 }
